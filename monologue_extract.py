@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Copyright (c) 2020, Florian Jung (flo@windfis.ch)
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
