@@ -5,7 +5,6 @@ extract all patches, properly named, into an output directory.  It can also be
 used on a single patch dump, which will be renamed accordingly and copied to
 the output directory.
 
-
 In case of a full system dump, each patch file is named by its number and its
 name. The files created can be sent to the Monologue using `amidi -p hw:1 -s
 file.syx`, for example.  The files in the output directory will *not* be
@@ -70,4 +69,6 @@ F0 42 30 00 01 44 24 F7 # error
 F0 42 30 00 01 44 23 F7 # success
 ```
 
+## More SysEx
 
+The SysEx format is documented in [KORG monologue Implementation Revision 1.00 (2019.02.19)](https://cdn.korg.com/jp/support/download/files/e3733d5dacc8a3b7e73f1c2a3367225b.txt)
